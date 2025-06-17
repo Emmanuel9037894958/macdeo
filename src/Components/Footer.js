@@ -42,7 +42,7 @@ function Footer() {
           <h2>Refund Policy</h2>
           <h2>Shipping Policy</h2>
           <h2>Wholesale Distributor</h2>
-          <h2>+234 9121 5823453</h2>
+          <h2>+234 8036080097</h2>
         </div>
 
         <hr className="my-6 border-white sm:mx-auto lg:my-8" />
