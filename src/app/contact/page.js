@@ -43,7 +43,7 @@ function Contact() {
 
         <div>
           <p className="mb-6">
-            We'd love to hear from you. Please fill out the form below and we'll
+            We would love to hear from you. Please fill out the form below and we will
             get back to you as soon as possible.
           </p>
 

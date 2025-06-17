@@ -33,7 +33,7 @@ function MediaPage() {
       {/* Below the image */}
       <div className="mt-6 max-w-md text-center text-base sm:text-lg">
         <p>
-          We're working hard to gather the best images and videos of our nuts,
+          We are working hard to gather the best images and videos of our nuts,
           bolts, and fasteners. Check back soon to see our products in action
           and behind the scenes at{" "}
           <span className="text-green-600 font-semibold">

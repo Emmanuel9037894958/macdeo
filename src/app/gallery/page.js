@@ -74,7 +74,7 @@ function Gallery() {
         <div className="text-center py-20">
           <h2 className="text-2xl font-semibold text-gray-700">Gallery Coming Soon</h2>
           <p className="mt-4 text-gray-500 max-w-xl mx-auto">
-            We're currently working on adding high-quality images of our fasteners and projects.
+            We are currently working on adding high-quality images of our fasteners and projects.
             Check back soon to explore our complete collection!
           </p>
         </div>
