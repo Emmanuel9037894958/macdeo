@@ -8,19 +8,19 @@ const heroImages = [
   {
     id: "image10",
     image: "/image10.jpg",
-    description: "Every fastener you need — we&apos;re here to help!",
+    description: "Every fastener you need — we are here to help!",
     keywords: ["fastener", "nut"],
   },
   {
     id: "image11",
     image: "/image11.jpg",
-    description: "Don&apos;t miss out on our premium selection of fasteners.",
+    description: "Dont miss out on our premium selection of fasteners.",
     keywords: ["fastener", "nut"],
   },
   {
     id: "image13",
     image: "/image13.jpg",
-    description: "We&apos;ve got what you&apos;re looking for in bulk hardware.",
+    description: "We have got what you are looking for in bulk hardware.",
     keywords: ["fastener", "nut"],
   },
 ];

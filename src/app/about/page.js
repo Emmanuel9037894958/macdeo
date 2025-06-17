@@ -37,14 +37,14 @@ function AboutUs() {
         </p>
 
         <p className="mt-4 text-base sm:text-lg leading-relaxed text-justify">
-          Whether you’re sourcing bulk quantities of hex bolts or custom fasteners for specialized machinery, we understand your challenges and are ready with solutions.
+          Whether you are sourcing bulk quantities of hex bolts or custom fasteners for specialized machinery, we understand your challenges and are ready with solutions.
           We work closely with engineers, procurement teams, and project managers to make sure timelines are met and expectations are exceeded.
         </p>
 
         <h2 className="text-2xl font-semibold mt-10">What Makes Us Different</h2>
         <ul className="list-disc list-inside mt-4 space-y-2 text-base sm:text-lg">
-          <li><strong>10+ Years of Experience:</strong> Proven track record with hundreds of successful projects.</li>
-          <li><strong>ISO-Certified Quality:</strong> Industry-grade materials, rigorously tested for reliability.</li>
+          <li><strong>8+ Years of Experience:</strong> Proven track record with hundreds of successful projects.</li>
+          <li><strong>I35-Certified Quality:</strong> Industry-grade materials, rigorously tested for reliability.</li>
           <li><strong>Custom Fastener Solutions:</strong> Tailor-made hardware for specialized applications.</li>
           <li><strong>Fast Shipping:</strong> Reliable, global delivery for urgent project needs.</li>
           <li><strong>Customer First:</strong> Friendly support, technical guidance, and post-sale service you can count on.</li>
@@ -62,10 +62,10 @@ function AboutUs() {
           <li>Marine & Aerospace</li>
         </ul>
 
-        <h2 className="text-2xl font-semibold mt-10">Let’s Build Together</h2>
+        <h2 className="text-2xl font-semibold mt-10">Lets Build Together</h2>
         <p className="mt-4 text-base sm:text-lg leading-relaxed text-justify">
           At BoltPro, we believe strong partnerships start with strong products — and even stronger trust.
-          Let's build the future, one bolt at a time.
+          Lets build the future, one bolt at a time.
         </p>
 
         <p className="mt-4 text-lg font-medium text-center pb-2">
