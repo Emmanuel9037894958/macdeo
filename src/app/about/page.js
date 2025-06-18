@@ -1,4 +1,7 @@
+'use client';
 import Footer from "@/Components/Footer";
+import { Typewriter } from "react-simple-typewriter";
+
 // import Image from "next/image";
 
 function AboutUs() {
@@ -43,7 +46,7 @@ function AboutUs() {
 
         <h2 className="text-2xl font-semibold mt-10">What Makes Us Different</h2>
         <ul className="list-disc list-inside mt-4 space-y-2 text-base sm:text-lg">
-          <li><strong>8+ Years of Experience:</strong> Proven track record with hundreds of successful projects.</li>
+          <li><strong>17 Years of Experience in this business:</strong> Proven track record with hundreds of successful projects.</li>
           <li><strong>I35-Certified Quality:</strong> Industry-grade materials, rigorously tested for reliability.</li>
           <li><strong>Custom Fastener Solutions:</strong> Tailor-made hardware for specialized applications.</li>
           <li><strong>Fast Shipping:</strong> Reliable, global delivery for urgent project needs.</li>
@@ -69,8 +72,20 @@ function AboutUs() {
         </p>
 
         <p className="mt-4 text-lg font-medium text-center pb-2">
-          🚚 Contact Macdeo-Resources today for a custom quote or a free consultation.
+           Contact Macdeo-Resources today for a custom quote or a free consultation.
         </p>
+      <di className ="font-bold text-red-800  text-center pb-0">
+         <Typewriter 
+       words={['OUR MOTO is:@MACDEO WE SERVE U BETTER.']}
+       loop
+       cursor
+       typeSpeed={70}
+       deleteSpeed={50}
+       delaySpeed={1000}
+       cursorStyle= "|"
+       
+       />
+      </di>
       </div>
 
       <Footer />

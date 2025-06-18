@@ -106,13 +106,13 @@ function Contact() {
           </p>
           <ul className="space-y-3 text-gray-700">
             <li>
-              📍 <strong>Address:</strong> 123 Fastener Street, Industrial Zone, Lagos
+              📍 <strong>Address:</strong>Shop No 14/15 plot 208/210 Oshodi/apapa express way Ilasamaja, Lagos State.
             </li>
             <li>
-              📞 <strong>Phone:</strong> +234 800 000 0000
+              📞 <strong>Phone:</strong> +234 8036080097
             </li>
             <li>
-              ✉️ <strong>Email:</strong> info@yourcompany.com
+              ✉️ <strong>Email:</strong> Macdeoresourcesng@gmail.com
             </li>
           </ul>
 
