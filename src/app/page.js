@@ -12,7 +12,7 @@ import FormInput from '@/Components/FormInput';
 export default function Home() {
   return (
     <div>
-       <NavBar />
+       {/* <NavBar /> */}
         <EmblaCarousel />
         <Hero />
         <MiddleRange />
@@ -20,7 +20,7 @@ export default function Home() {
         <FormInput />
         <Impact />
         <LastNote />
-        <Footer />
+        {/* <Footer /> */}
     </div>
   );
 }
