@@ -24,7 +24,7 @@ function Gallery() {
       }`}
     >
       {/* Placeholder for future gallery grid */}
-      <div className="text-center py-20">
+      <div className="text-center py-32">
         <h2 className="text-2xl font-semibold">Gallery Coming Soon</h2>
         <p className="mt-4 max-w-xl mx-auto">
           We are currently preparing an amazing collection of images to showcase our products.  
