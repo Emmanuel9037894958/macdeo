@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useForm } from "@formspree/react";
 
-function Contact() {
+export default function Contact() {
   const [state, handleSubmit] = useForm("xzzggbee");
 
   if (state.succeeded) {
@@ -15,31 +15,24 @@ function Contact() {
   }
 
   return (
-    <section className="min-h-screen bg-gray-100 px-4 sm:px-6 lg:px-8 z-50">
-      <div className="relative">
+    <section className="bg-gray-100 min-h-screen">
+      {/* Full viewport height & width image container */}
+      <div className="relative w-full h-[400]">
         <Image
-          className="fixed top-0 left-0 z-50"
-          src="/logo.png"
-          alt="logo-image"
-          width={140}
-          height={100}
-        />
-
-        <h2 className="text-3xl font-bold text-white absolute pt-30 pl-10 top-0 left-0 p-4 z-50">
-          Get in Touch...
-        </h2>
-
-        <Image
-          className="w-full object-cover brightness-50 mt-0"
           src="/telephone.jpg"
           alt="telephone"
-          width={1920}
-          height={400}
+          fill
+          className="object-cover brightness-50"
           priority
+          sizes="100vw"
         />
+        <h2 className="text-white absolute top-40 left-20 text-3xl sm:text-5xl font-bold z-50 text-center">
+          Get in Touch...
+        </h2>
       </div>
 
-      <div className="max-w-7xl mx-auto bg-white shadow-lg rounded-lg p-8 grid md:grid-cols-2 gap-10 -mt-20 relative z-10">
+      {/* Content below the full screen image */}
+      <div className="max-w-7xl mx-auto bg-white shadow-lg rounded-lg p-8 grid md:grid-cols-2 gap-10 -mt-20 relative z-10 px-4 sm:px-6 lg:px-8">
         <div>
           <p className="mb-6">
             We&apos;d love to hear from you. Please fill out the form below and we&apos;ll
@@ -48,7 +41,7 @@ function Contact() {
 
           <form onSubmit={handleSubmit} method="POST" className="space-y-5">
             <div>
-              <label className="block text-sm font-medium text-gray-700">
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                 Name
               </label>
               <input
@@ -62,7 +55,7 @@ function Contact() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                 Email
               </label>
               <input
@@ -76,20 +69,22 @@ function Contact() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700">
+              <label htmlFor="message" className="block text-sm font-medium text-gray-700">
                 Message
               </label>
               <textarea
+                id="message"
                 name="message"
-                rows="5"
+                rows={5}
                 required
                 className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-              ></textarea>
+              />
             </div>
 
             <button
               type="submit"
-              className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition"
+              disabled={state.submitting}
+              className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition disabled:opacity-50"
             >
               Send Message
             </button>
@@ -106,7 +101,7 @@ function Contact() {
           </p>
           <ul className="space-y-3 text-gray-700">
             <li>
-              📍 <strong>Address:</strong>Shop No 14/15 plot 208/210 Oshodi/apapa express way Ilasamaja, Lagos State.
+              📍 <strong>Address:</strong> Shop No 14/15 plot 208/210 Oshodi/apapa express way Ilasamaja, Lagos State.
             </li>
             <li>
               📞 <strong>Phone:</strong> +234 8036080097
@@ -133,5 +128,3 @@ function Contact() {
     </section>
   );
 }
-
-export default Contact;

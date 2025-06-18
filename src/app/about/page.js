@@ -74,7 +74,7 @@ function AboutUs() {
         <p className="mt-4 text-lg font-medium text-center pb-2">
            Contact Macdeo-Resources today for a custom quote or a free consultation.
         </p>
-      <di className ="font-bold text-red-800  text-center pb-0">
+      <div className ="font-bold text-red-800  text-center pb-0">
          <Typewriter 
        words={['OUR MOTO is:@MACDEO WE SERVE U BETTER.']}
        loop
@@ -85,7 +85,7 @@ function AboutUs() {
        cursorStyle= "|"
        
        />
-      </di>
+      </div>
       </div>
 
       <Footer />
