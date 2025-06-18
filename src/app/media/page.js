@@ -25,12 +25,12 @@ function MediaPage() {
         ${invertedDarkMode ? "bg-white text-gray-800" : "bg-gray-900 text-white"}`}
     >
       {/* Image section with overlaid text */}
-      <div className="relative w-full h-[300px]">
+      <div className="relative w-screen h-[300px]">
         <Image
           src="/media.jpeg"
           alt="Media Banner"
           fill
-          className="object-cover"
+          className="object-cover "
         />
         <div className="absolute inset-0 flex items-center justify-center bg-black/40">
           <h2 className="text-white text-2xl sm:text-3xl font-bold text-center">
