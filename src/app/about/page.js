@@ -1,5 +1,5 @@
 'use client';
-import Footer from "@/Components/Footer";
+// import Footer from "@/Components/Footer";
 import { Typewriter } from "react-simple-typewriter";
 
 // import Image from "next/image";
@@ -88,7 +88,7 @@ function AboutUs() {
       </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </section>
   );
 }

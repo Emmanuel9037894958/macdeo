@@ -44,8 +44,8 @@ function NavBar() {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex px-4 items-center">
-          <ul className="flex items-center gap-6">
+        <div className="hidden md:flex px-4 items-center md:text-2xl md:font-bold">
+          <ul className="flex items-center gap-6 md:gap-9">
             {pageList.map((page, i) => (
               <li key={i}>
                 <Link href={page.path}>{page.pages}</Link>

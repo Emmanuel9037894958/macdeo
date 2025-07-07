@@ -11,7 +11,7 @@ import image4 from "./assets/5fe16a24-1d28-4bda-850d-2a1d2e169cc3.jpg";
 import image5 from "./assets/images (19).jpeg";  
 import image6 from "./assets/images (29).jpeg";  
 
-import Button from "./Components/Button"; 
+import Button from "./Components/Button"; ``
 
 export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
