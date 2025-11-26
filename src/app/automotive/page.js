@@ -115,4 +115,4 @@ function automotive() {
   );
 }
 
-export default AutomotivePage;
+export default automotive;
