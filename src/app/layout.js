@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/Components/NavBar";
 import Footer from "@/Components/Footer";
+import Image from "next/image";
 {/* <link
   href="https://fonts.googleapis.com/css2?family=Geist+Mono&display=swap"
   rel="stylesheet"
@@ -29,6 +30,21 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+          <div className="fixed top-[460px] right-1 z-50">
+                  <a href="https://wa.link/05z8io" className="relative block">
+        
+                    <span className="absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75 animate-ping pointer-events-none"></span>
+        
+        
+                    <Image
+                      src="/wha.svg"
+                      alt="WhatsApp"
+                      className="bg-green-800 rounded-full block lg:hidden w-16 shadow-lg shadow-green-500/40 relative z-10"
+                      width={100}
+                      height={100}
+                    />
+                  </a>
+                </div>
         <NavBar />
         {children}
         <Footer />
